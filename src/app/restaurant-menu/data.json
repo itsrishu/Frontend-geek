@@ -1,0 +1,164 @@
+{
+	"menu": [
+		{
+			"orderId": 1,
+			"customerName": "John Doe",
+			"burger": {
+				"bun": { "id": 1, "name": "Sesame Bun", "price": 30 },
+				"patty": { "id": 1, "name": "Beef Patty", "price": 100 },
+				"cheese": { "id": 1, "name": "Cheddar", "price": 40 },
+				"sauces": [
+					{ "id": 1, "name": "Ketchup", "price": 10 },
+					{ "id": 4, "name": "Barbecue Sauce", "price": 15 }
+				],
+				"toppings": [
+					{ "id": 1, "name": "Lettuce", "price": 15 },
+					{ "id": 2, "name": "Tomato", "price": 10 }
+				]
+			},
+			"totalPrice": 210,
+			"status": "Completed"
+		},
+		{
+			"orderId": 2,
+			"customerName": "Jane Smith",
+			"burger": {
+				"bun": { "id": 4, "name": "Brioche Bun", "price": 50 },
+				"patty": { "id": 3, "name": "Veggie Patty", "price": 70 },
+				"cheese": { "id": 4, "name": "Vegan Cheese", "price": 45 },
+				"sauces": [{ "id": 5, "name": "Chipotle Sauce", "price": 20 }],
+				"toppings": [
+					{ "id": 5, "name": "Jalapenos", "price": 15 },
+					{ "id": 6, "name": "Grilled Mushrooms", "price": 25 }
+				]
+			},
+			"totalPrice": 225,
+			"status": "In Progress"
+		},
+		{
+			"orderId": 3,
+			"customerName": "Mike Johnson",
+			"burger": {
+				"bun": { "id": 2, "name": "Whole Wheat Bun", "price": 35 },
+				"patty": { "id": 2, "name": "Chicken Patty", "price": 80 },
+				"cheese": { "id": 2, "name": "Swiss", "price": 50 },
+				"sauces": [{ "id": 2, "name": "Mayonnaise", "price": 10 }],
+				"toppings": [
+					{ "id": 3, "name": "Onions", "price": 10 },
+					{ "id": 4, "name": "Pickles", "price": 10 }
+				]
+			},
+			"totalPrice": 195,
+			"status": "Completed"
+		},
+		{
+			"orderId": 4,
+			"customerName": "Emily Davis",
+			"burger": {
+				"bun": { "id": 3, "name": "Gluten-Free Bun", "price": 40 },
+				"patty": { "id": 4, "name": "Falafel Patty", "price": 75 },
+				"cheese": { "id": 1, "name": "Cheddar", "price": 40 },
+				"sauces": [
+					{ "id": 1, "name": "Ketchup", "price": 10 },
+					{ "id": 3, "name": "Mustard", "price": 10 }
+				],
+				"toppings": [
+					{ "id": 1, "name": "Lettuce", "price": 15 },
+					{ "id": 2, "name": "Tomato", "price": 10 },
+					{ "id": 5, "name": "Jalapenos", "price": 15 }
+				]
+			},
+			"totalPrice": 215,
+			"status": "Pending"
+		}
+	],
+	"burgerOptions": {
+		"buns": [
+			{ "id": 1, "name": "Sesame Bun", "price": 30, "isAvailable": true },
+			{
+				"id": 2,
+				"name": "Whole Wheat Bun",
+				"price": 35,
+				"isAvailable": true
+			},
+			{
+				"id": 3,
+				"name": "Gluten-Free Bun",
+				"price": 40,
+				"isAvailable": true
+			},
+			{ "id": 4, "name": "Brioche Bun", "price": 50, "isAvailable": true }
+		],
+		"patties": [
+			{
+				"id": 1,
+				"name": "Potato Patty",
+				"price": 100,
+				"isVegetarian": false,
+				"isAvailable": true
+			},
+			{
+				"id": 2,
+				"name": "Chicken Patty",
+				"price": 80,
+				"isVegetarian": false,
+				"isAvailable": true
+			},
+			{
+				"id": 3,
+				"name": "Veggie Patty",
+				"price": 70,
+				"isVegetarian": true,
+				"isAvailable": true
+			},
+			{
+				"id": 4,
+				"name": "Falafel Patty",
+				"price": 75,
+				"isVegetarian": true,
+				"isAvailable": true
+			}
+		],
+		"cheeses": [
+			{ "id": 1, "name": "Cheddar", "price": 40, "isAvailable": true },
+			{ "id": 2, "name": "Swiss", "price": 50, "isAvailable": true },
+			{ "id": 3, "name": "American", "price": 30, "isAvailable": true },
+			{
+				"id": 4,
+				"name": "Vegan Cheese",
+				"price": 45,
+				"isAvailable": true
+			}
+		],
+		"sauces": [
+			{ "id": 1, "name": "Ketchup", "price": 10, "isAvailable": true },
+			{ "id": 2, "name": "Mayonnaise", "price": 10, "isAvailable": true },
+			{ "id": 3, "name": "Mustard", "price": 10, "isAvailable": true },
+			{
+				"id": 4,
+				"name": "Barbecue Sauce",
+				"price": 15,
+				"isAvailable": true
+			},
+			{
+				"id": 5,
+				"name": "Chipotle Sauce",
+				"price": 20,
+				"isAvailable": true
+			}
+		],
+		"toppings": [
+			{ "id": 1, "name": "Lettuce", "price": 15, "isAvailable": true },
+			{ "id": 2, "name": "Tomato", "price": 10, "isAvailable": true },
+			{ "id": 3, "name": "Onions", "price": 10, "isAvailable": true },
+			{ "id": 4, "name": "Pickles", "price": 10, "isAvailable": true },
+			{ "id": 5, "name": "Jalapenos", "price": 15, "isAvailable": true },
+			{
+				"id": 6,
+				"name": "Grilled Mushrooms",
+				"price": 25,
+				"isAvailable": true
+			}
+		]
+	}
+}
