@@ -1,0 +1,32 @@
+{
+	"id": 1,
+	"isFolder": true,
+	"title": "src",
+	"items": [
+		{
+			"id": 2,
+			"isFolder": true,
+			"title": "components",
+			"items": [
+				{
+					"id": 5,
+					"isFolder": false,
+					"title": "timer",
+					"items": []
+				}
+			]
+		},
+		{
+			"id": 3,
+			"isFolder": true,
+			"title": "hooks",
+			"items": []
+		},
+		{
+			"id": 4,
+			"isFolder": true,
+			"title": "utils",
+			"items": []
+		}
+	]
+}

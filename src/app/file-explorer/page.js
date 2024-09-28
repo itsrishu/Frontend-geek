@@ -4,7 +4,9 @@ import data from './data.json'
 
 function page() {
 	const [expData, setExpData] = useState(data)
+
 	const insert = (id, name, isFolder) => {}
+
 	return <Folder expData={expData} />
 }
 
@@ -34,7 +36,6 @@ function Folder({ expData, insert }) {
 	}
 
 	const add = () => {
-		console.log(expData.id, text, expData.isFolder)
 		insert(expData.id, text, expData.isFolder)
 	}
 
