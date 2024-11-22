@@ -1,0 +1,29 @@
+{
+	"title": "item 1",
+	"isFolder": true,
+	"id": 1,
+	"items": [
+		{
+			"title": "item 2",
+			"isFolder": true,
+			"id": 2,
+			"items": [
+				{
+					"title": "item 5",
+					"isFolder": true,
+					"id": 5,
+					"items": [
+						{
+							"title": "item 6",
+							"id": 6,
+							"isFolder": false,
+							"items": []
+						}
+					]
+				}
+			]
+		},
+		{ "title": "item 3", "isFolder": true, "id": 3, "items": [] },
+		{ "title": "item 4", "isFolder": true, "id": 4, "items": [] }
+	]
+}
